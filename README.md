@@ -6,8 +6,8 @@ Aplikasi ini dibangun untuk memenuhi syarat Tugas Ujian Akhir Semester (UAS) mat
 
 ## Fitur Utama
 1. **Dashboard Ringkasan Eksekutif:** Menampilkan total varian barang, akumulasi seluruh stok gudang, dan notifikasi barang dengan status menipis secara langsung.
-2. **Katalog & Manajerial Produk (CRUD Rumpun 1):** Manajemen data ban, velg, dan aksesoris lengkap beserta kontrol perubahan harga maupun penghapusan item.
-3. **Pencatatan Transaksi Cerdas (CRUD Rumpun 2):** Input log transaksi keluar yang terelasi secara ACID Transaction dengan database MySQL untuk melakukan pemotongan stok otomatis serta mengunci data historis (Snapshot Data) jika produk induk dihapus di kemudian hari.
+2. **Katalog & Manajerial Produk:** Manajemen data ban, velg, dan aksesoris lengkap beserta kontrol perubahan harga maupun penghapusan item.
+3. **Pencatatan Transaksi Cerdas:** Input log transaksi keluar yang terelasi secara ACID Transaction dengan database MySQL untuk melakukan pemotongan stok otomatis serta mengunci data historis (Snapshot Data) jika produk induk dihapus di kemudian hari.
 
 ---
 
@@ -48,9 +48,9 @@ cd UAS_TIF-RM-23B_Pemrograman-WEB-2
 ```
 
 ## 2. Konfigurasi Database MySQL
-### 1. Pastikan server MySQL lokal kalian aktif seperti XAMPP atau Laragon
-### 2. Buat database baru bernama ottoban atau apapun itu sesuka kalian
-### 3. Jalankan Query SQL berikut untuk membuat struktur tabel dan relasinya
+1. Pastikan server MySQL lokal kalian aktif seperti XAMPP atau Laragon
+2. Buat database baru bernama ottoban atau apapun itu sesuka kalian
+3. Jalankan Query SQL berikut untuk membuat struktur tabel dan relasinya
 ```
 CREATE TABLE products (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -77,11 +77,11 @@ CREATE TABLE transactions (
 ```
 
 ## 3. Jalankan server backend
-### 1. Masuk ke direktori backend dan install depedensi Node.js (Pastikan sudah berada di direktori backend):
+1. Masuk ke direktori backend dan install depedensi Node.js (Pastikan sudah berada di direktori backend):
 ```
 npm install
 ```
-### 2. Buat file .env di dalam folder backend/ dan sesuaikan settingan SQL-nya:
+2. Buat file .env di dalam folder backend/ dan sesuaikan settingan SQL-nya:
 ```
 PORT=5000
 DB_HOST=localhost
@@ -89,17 +89,17 @@ DB_USER=root
 DB_PASSWORD=
 DB_NAME=ottoban (atau nama database kalian)
 ```
-### 3. Jalankan server backend-nya dengan perintah berikut:
+3. Jalankan server backend-nya dengan perintah berikut:
 ```
 node index.js
 ```
 
 ## 4. Jalankan server frontend
-### 1. Masuk ke direktori frontend dan install depedensi Node.js (Pastikan sudah berada di direktori frontend):
+1. Masuk ke direktori frontend dan install depedensi Node.js (Pastikan sudah berada di direktori frontend):
 ```
 npm install
 ```
-### 2. Jalankan server frontend-nya dengan perintah berikut:
+2. Jalankan server frontend-nya dengan perintah berikut:
 ```
 node index.js
 ```
