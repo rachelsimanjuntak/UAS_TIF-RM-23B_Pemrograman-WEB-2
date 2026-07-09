@@ -4,6 +4,21 @@ Aplikasi Full-Stack Web App berbasis arsitektur terpisah (Express API Backend & 
 
 Aplikasi ini dibangun untuk memenuhi syarat Tugas Ujian Akhir Semester (UAS) mata kuliah Pemrograman Web 2.
 
+### 👤 Pengembang Aplikasi
+![Developer](https://img.shields.io/badge/Developer-rachelsimanjuntak-blue?style=for-the-badge&logo=github)
+
+> ### 🛠️ Keterangan Pengembang
+> Proyek Full-Stack Web App ini dirancang dan dikembangkan sepenuhnya oleh **Rachel Simanjuntak** (NIM: GANTI_NIM_DISINI) dari kelas **TIF-RM-23B** sebagai pemenuhan nilai berkas utama UAS Pemrograman Web 2.
+
+## 📝 Identitas Mahasiswa
+
+| Kategori | Informasi |
+| :--- | :--- |
+| **Nama Lengkap** | Rachel Simanjuntak |
+| **Kelas** | TIF-RM-23B |
+| **Mata Kuliah** | Pemrograman Web 2 (UAS - Project)|
+| **Status Repositori**| Monorepo (Full-Stack)|
+
 ## Fitur Utama
 1. **Dashboard Ringkasan Eksekutif:** Menampilkan total varian barang, akumulasi seluruh stok gudang, dan notifikasi barang dengan status menipis secara langsung.
 2. **Katalog & Manajerial Produk:** Manajemen data ban, velg, dan aksesoris lengkap beserta kontrol perubahan harga maupun penghapusan item.
@@ -101,7 +116,7 @@ npm install
 ```
 2. Jalankan server frontend-nya dengan perintah berikut:
 ```
-node index.js
+npm run dev
 ```
 
 ## 5. Buka browser untuk mengecek apakah proyek ini sudah bisa diakses atau belum
