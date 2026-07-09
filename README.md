@@ -9,6 +9,7 @@ Aplikasi ini dibangun untuk memenuhi syarat Tugas Ujian Akhir Semester (UAS) mat
 | Kategori | Informasi |
 | :--- | :--- |
 | **Nama Lengkap** | Rachel Simanjuntak |
+| **NPM** | 23552011035|
 | **Kelas** | TIF-RM-23B |
 | **Mata Kuliah** | Pemrograman Web 2 (UAS - Project)|
 | **Tema Aplikasi** | Sistem Manajemen Informasi|
