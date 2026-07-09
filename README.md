@@ -54,7 +54,7 @@ ottoban/
 ## 1. Clone Repositori
 Pertama pilih folder tertentu sebagai direktori proyek ini
 ```
-git clone [https://github.com/rachelsimanjuntak/UAS_TIF-RM-23B_Pemrograman-WEB-2.git](https://github.com/rachelsimanjuntak/UAS_TIF-RM-23B_Pemrograman-WEB-2.git)
+git clone https://github.com/rachelsimanjuntak/UAS_TIF-RM-23B_Pemrograman-WEB-2.git
 cd UAS_TIF-RM-23B_Pemrograman-WEB-2
 ```
 
